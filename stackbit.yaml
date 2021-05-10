@@ -10,14 +10,6 @@ cmsName: contentful
 buildCommand: npm run build
 publishDir: public
 
-# The "import" object defines how Stackbit should provision Contentful when
-# creating a new site from this theme via https://app.stackbit.com/create.
-import:
-  type: contentful
-  contentFile: contentful/export.json
-  spaceIdEnvVar: CONTENTFUL_SPACE_ID
-  accessTokenEnvVar: CONTENTFUL_ACCESS_TOKEN
-
 # To allow creating and duplicating pages in Stackbit Studio, as well as other
 # advanced editing capabilities, specify which models describe your website
 # pages and specify their "urlPath" patterns. The urlPath should have the same
